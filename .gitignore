@@ -1,0 +1,45 @@
+# Logs
+front/frontend/logs
+front/frontend/*.log
+front/frontend/npm-debug.log*
+front/frontend/yarn-debug.log*
+front/frontend/yarn-error.log*
+front/frontend/pnpm-debug.log*
+front/frontend/lerna-debug.log*
+
+front/frontend/node_modules
+front/frontend/.DS_Store
+front/frontend/dist
+front/frontend/dist-ssr
+front/frontend/coverage
+front/frontend/*.local
+
+front/frontend//cypress/videos/
+front/frontend//cypress/screenshots/
+
+# Editor directories and files
+front/frontend/.vscode/*
+front/frontend/!.vscode/extensions.json
+front/frontend/.idea
+front/frontend/*.suo
+front/frontend/*.ntvs*
+front/frontend/*.njsproj
+front/frontend/*.sln
+front/frontend/*.sw?
+front/node_modules/*
+
+front/frontend/*.tsbuildinfo
+
+
+
+
+###> symfony/framework-bundle ###
+back/backend/.env.local
+back/backend/.env.local.php
+back/backend/.env.*.local
+back/backend/config/secrets/prod/prod.decrypt.private.php
+back/backend/public/bundles/
+back/backend/var/
+back/backend/vendor/
+###< symfony/framework-bundle ###
+
